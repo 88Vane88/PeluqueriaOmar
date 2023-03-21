@@ -84,6 +84,14 @@ a:hover{
   font-size: 25px;
   padding: 5px;
 }
+.instagram:hover{
+  text-decoration: none;
+  color:rgb(184, 30, 114);
+}
+.whatsapp:hover{
+  text-decoration: none;
+  color:green;
+}
 .whatsapp{
   color:green;
 }
