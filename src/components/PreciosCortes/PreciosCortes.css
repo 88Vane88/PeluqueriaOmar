@@ -1,0 +1,36 @@
+.containerPrecios{
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background:url('../../components/imag/fondo-herramientas-peluqueria-peine-tijeras-mesa-realista_1284-33281.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.tituloPrecios{
+  font-size: 50px;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  margin-left:40%;
+
+}
+.subTitle{
+   font-size: 30px;
+   color:black
+}
+.table1{
+  margin-left: 10%;
+  font-size: 20px;
+  color:black;
+}
+/* .tableBody:last-child tr{
+  border-top:1px solid
+} */
+.divTable{
+  margin-top: 40px;
+}
+th{
+  padding-right: 150px;
+}

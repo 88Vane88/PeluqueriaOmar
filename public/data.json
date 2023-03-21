@@ -1,0 +1,58 @@
+[
+  {
+    "id":1,
+    "name": "Cera",
+    "productor":"L'Oreal ",
+    "price": 1200,
+    "img":"../public/imag/producto1.jpg",
+    "quantity":1
+  },
+  {
+    "id":1,
+    "name": "Crema capilar",
+    "productor":"Lancom",
+    "price": 2100,
+    "img":"../public/imag/producto1.jpg",
+    "quantity":1
+  },
+  {
+    "id":2,
+    "name": "Shampoo neutro",
+    "productor":"Ceramidas",
+    "price": 950,
+    "img":"../public/imag/producto1.jpg",
+    "quantity":1
+  },
+  {
+    "id":3,
+    "name": "Acondicionador",
+    "productor":"Capilatis",
+    "price": 1150,
+    "img":"../public/imag/producto1.jpg",
+    "quantity":1
+  },
+  {
+    "id":4,
+    "name": "Tratamiento frizz",
+    "productor":"Treum",
+    "price": 1750,
+    "img":"../public/imag/producto1.jpg",
+    "quantity":1
+  },
+  {
+    "id":5,
+    "name": "Crema Reparadora",
+    "productor":"Issue",
+    "price": 1188,
+    "img":"../public/imag/producto1.jpg",
+    "quantity":1
+  },
+  {
+    "id":6,
+    "name": "Keratina 440ml",
+    "productor":"Angelis",
+    "price": 990,
+    "img":"../public/imag/producto1.jpg",
+    "quantity":1
+  }
+]

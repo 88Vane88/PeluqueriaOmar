@@ -1,0 +1,30 @@
+.sectionAbout{
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 800%;
+  padding: 50px;
+}
+.titulo{
+  font-size: 50px;
+  color: white;
+  margin-bottom: 30px;
+}
+.contenedorAbout{
+  display: flex;
+}
+.txt{
+  font-size: 20px;
+}
+
+.imagenAbout{
+  width: 500px;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+.box-1{
+  margin-right: 150px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
