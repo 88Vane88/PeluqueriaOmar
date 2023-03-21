@@ -1,0 +1,15 @@
+.divCarousel{
+    font-size: 50px;
+    color:black;
+    font-weight: bold;
+}
+.pCarousel{
+    color: rgb(3, 3, 3);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.carousel .carousel-caption {
+    margin-left: -45%;
+    margin-bottom: 10%;
+}
