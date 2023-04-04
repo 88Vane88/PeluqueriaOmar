@@ -4,7 +4,9 @@
     "name": "Cera",
     "productor":"L'Oreal ",
     "price": 1200,
+    "stock":"stock",
     "img":"../public/imag/producto1.jpg",
+    "description":"Es un producto para que quede mas sedoso el pelo",
     "quantity":1
   },
   {
@@ -12,7 +14,9 @@
     "name": "Crema capilar",
     "productor":"Lancom",
     "price": 2100,
+    "stock":"stock",
     "img":"../public/imag/producto1.jpg",
+    "description":"Es un producto para que quede mas sedoso el pelo",
     "quantity":1
   },
   {
@@ -20,7 +24,9 @@
     "name": "Shampoo neutro",
     "productor":"Ceramidas",
     "price": 950,
+    "stock":"stock",
     "img":"../public/imag/producto1.jpg",
+    "description":"Es un producto para que quede mas sedoso el pelo",
     "quantity":1
   },
   {
@@ -28,7 +34,9 @@
     "name": "Acondicionador",
     "productor":"Capilatis",
     "price": 1150,
+    "stock":"stock",
     "img":"../public/imag/producto1.jpg",
+    "description":"Es un producto para que quede mas sedoso el pelo",
     "quantity":1
   },
   {
@@ -36,7 +44,9 @@
     "name": "Tratamiento frizz",
     "productor":"Treum",
     "price": 1750,
+    "stock":"stock",
     "img":"../public/imag/producto1.jpg",
+    "description":"Es un producto para que quede mas sedoso el pelo",
     "quantity":1
   },
   {
@@ -44,7 +54,9 @@
     "name": "Crema Reparadora",
     "productor":"Issue",
     "price": 1188,
+    "stock":"stock",
     "img":"../public/imag/producto1.jpg",
+    "description":"Es un producto para que quede mas sedoso el pelo",
     "quantity":1
   },
   {
@@ -52,7 +64,9 @@
     "name": "Keratina 440ml",
     "productor":"Angelis",
     "price": 990,
+    "stock":"stock",
     "img":"../public/imag/producto1.jpg",
+    "description":"Es un producto para que quede mas sedoso el pelo",
     "quantity":1
   }
 ]

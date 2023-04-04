@@ -3,7 +3,6 @@ import { Ubicacion } from "../infoMaps/Ubicacion"
 import { NavBar } from "../navBar/NavBar"
 import {About} from "../navBar/about/About"
 import { Servicios } from "../navBar/servicios/Servicios"
-/*   */
 import './Home.css'
 
 

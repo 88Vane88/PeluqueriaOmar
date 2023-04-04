@@ -53,7 +53,7 @@ a:hover{
 }
 .seeCarrito{
   font-size: 25px;
-  margin-right: 20px;
+  margin-right: 50px;
   margin-top: 4vh;
   cursor: pointer;
   text-decoration: none;
@@ -65,24 +65,40 @@ a:hover{
 
 .link-container{
   margin-top: 30px;
-  margin-left: 40rem;
+  margin-left: 15rem
 }
 
-.about, .contacto, .loginUser, .maps{
+.about, .contacto, .loginUser, .maps, .products{
   text-decoration: none;
   cursor: pointer;
   font-size: 25px;
-  margin-right: 15px;
+  margin-right: 10px;
   color: white;
+}
+.about{
+  padding: 10px;
+}
+.contacto{
+  padding: 10px;
+}
+.loginUser{
+  padding: 10px;
+}
+.maps{
+  padding: 10px;
+}
+.products{
+  padding: 10px;
 }
 
 .inicio{
   margin-left: 35rem;
 }
+
 .instagram, .whatsapp{
   text-decoration: none; 
   font-size: 25px;
-  padding: 5px;
+  padding: 10px;
 }
 .instagram:hover{
   text-decoration: none;

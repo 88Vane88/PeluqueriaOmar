@@ -19,6 +19,7 @@ export const NavBar = () => {
       <div className='link-container'>
       <a className='about' href= '#about' >Nosotros</a>
       <a className='maps' href= '#ubi'>Ubicación</a>
+      <Link className='products' to={'/products'}>Productos</Link>
       <Link className='loginUser' to={'/login'}>Registrarse</Link>
       <a className='whatsapp' target='_blank' href='https://api.whatsapp.com/send?phone=1568298132&text=BIENVENID@'>
         <ion-icon name="logo-whatsapp"></ion-icon>

@@ -1,6 +1,8 @@
 import { useContext } from "react"
 import { dataContext } from "../dataProducts/DataProducts"
 import './Products.css'
+import { NavBar } from "../navBar/NavBar"
+import Producto from '../products/cardProducts'
 
 export const Products = () => {
   const {data, buyProducts}= useContext(dataContext)
@@ -9,6 +11,9 @@ export const Products = () => {
 
 
   return (
+    <>
+    <NavBar/>
+    <Producto/>
     <div className='gallery'>
       {
       data.map((product)=>{
@@ -23,6 +28,7 @@ export const Products = () => {
       })
       }
     </div>
+    </>
   )
 }
 
