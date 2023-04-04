@@ -1,4 +1,4 @@
-import express from 'express'
+/* import express from 'express'
 import morgan from 'morgan'
 import cors from 'cors'
 import fileUpload from 'express-fileupload'
@@ -14,3 +14,4 @@ server.use(fileUpload({ useTempFiles: true }))
 server.use('/', router)
 
 export default server
+ */
