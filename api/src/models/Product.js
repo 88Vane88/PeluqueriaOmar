@@ -12,7 +12,8 @@ const ProductSchema = new moongose.Schema({
     default: true,
   },
 
-})
+},
+{timestamps: false});
 
 ProductSchema.set('toJSON', {
   transform: (document, returnedObject) => {
