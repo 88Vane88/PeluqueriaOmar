@@ -5,16 +5,26 @@ h3{
   padding-top: 10px;
 }
 
-.gallery{
+/* .gallery{
   display: flex;
   flex-wrap: wrap;
-  width: 80%; /* 100% */
+  width: 80%; 
   justify-content: center;
   align-items: center;
-  margin: 70px 0; /* 50 */
+  margin: 70px 0; 
+} */
+
+
+.gallery{
+  display:grid;
+  gap:1vw;
+  width: 90%;
+  grid-auto-rows: 22rem;
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
 }
+
+
 .content{
-  width: 20%;
   margin: 15px;
   box-sizing: border-box;
   float: left;
