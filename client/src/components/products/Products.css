@@ -67,14 +67,3 @@ h5{
   border-bottom-left-radius:20px;
   background-color: rgb(86, 86, 212)
 }
-
-@media(max-width:1000px){
-  .content{
-    width: 45px;
-  }
-}
-@media(max-width:750px){
-  .content{
-    width: 100%;
-  }
-}
