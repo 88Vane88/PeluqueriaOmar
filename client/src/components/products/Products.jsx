@@ -2,18 +2,16 @@ import { useContext } from "react"
 import { dataContext } from "../dataProducts/DataProducts"
 import './Products.css'
 import { NavBar } from "../navBar/NavBar"
-import Producto from '../products/cardProducts'
 
 export const Products = () => {
   const {data, buyProducts}= useContext(dataContext)
 
   /* setCart([...cart,product]) */
 
-
   return (
     <>
     <NavBar/>
-    <Producto/>
+  
     <div className='gallery'>
       {
       data.map((product)=>{
