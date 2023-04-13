@@ -29,7 +29,8 @@ const UserSchema = new moongose.Schema({
       ref: 'Products',
     },
   ],
-})
+},
+{timestamps: false});
 
 UserSchema.set('toJSON', {
   transform: (document, returnedObject) => {
