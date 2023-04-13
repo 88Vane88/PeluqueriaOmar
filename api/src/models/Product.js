@@ -4,6 +4,7 @@ const ProductSchema = new moongose.Schema({
 
   name:String,
   marca:String,
+  category:String,
   price:Number,
   img:String,
   description:String,
