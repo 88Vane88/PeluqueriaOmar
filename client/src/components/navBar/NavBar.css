@@ -1,112 +1,57 @@
-html{
-  scroll-behavior: smooth;
-}
-
-.nav-container{
-  position: sticky;
-  z-index:3;
-  top:0;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  height: 15vh;
+.navbar{
   background-color: black;
-}
-
-.navbar-logo{
- /*  justify-self: start; */
-  margin-left: 20px;
-  color: white;
-  font-size: 35px;
-  margin-top:-10px;
-  cursor: pointer;
-  font-family: 'Crafty Girls','Gloria Hallelujah','Shadows Into Light', sans-serif;
-  text-decoration: none;
-}
-a{
-  text-decoration: none;
-}
-
-.navbar-logo2{
-  /* justify-self: start; */
-  border-radius: 103px 0px 59px 0px;
-  -webkit-border-radius: 103px 0px 59px 0px;
-  -moz-border-radius: 103px 0px 59px 0px;
-  color: black;
-  font-size: 15px;
-  background-color: white;
-  padding: 10px;
-  height: 30px;
-  width: 10rem;
-  margin-left: 40px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-style: italic;
-  font-weight: bold;
-  text-decoration: none;
-  text-align: center;
-}
-a:hover{
   color:white;
-  text-decoration: none;
+  width: 100%;
+  height: 80%;
 }
-.seeCarrito{
+
+.navbar .leftSide{
+  display: flex;
+  justify-content:left;
+  align-items: center;
+}
+
+.navbar .leftSide .logo div{
+  color:white;
   font-size: 25px;
-  margin-right: 50px;
-  margin-top: 4vh;
-  cursor: pointer;
+  margin-left: 15px;
+  font-family:'Crafty Girls','Gloria Hallelujah','Shadows Into Light', sans-serif;
+}
+.navbar .leftSide .logo{
   text-decoration: none;
 }
 
-.numero-compras{
-  font-size: 15px;
+.navbar .rightSide{
+  display: flex;
+  align-items: center;
+  
 }
 
-.link-container{
-  margin-top: 30px;
-  margin-left: 15rem
+.navbar .rightSide .linksTo{
+  max-height: 80px;
 }
 
-.about, .contacto, .loginUser, .maps, .products{
+.navbar .rightSide .linksTo a{
+  color:white;
+  font-size: 25px;
+  text-decoration: none ;
+}
+
+.navbar .rightSide #hidden{
+  display: flex;
+}
+
+.about, .contacto, .loginUser, .maps, .products,.seeCarrito{
   text-decoration: none;
   cursor: pointer;
   font-size: 25px;
-  margin-right: 10px;
+  margin-right: 40px;
   color: white;
 }
-.about{
-  padding: 10px;
-}
-.contacto{
-  padding: 10px;
-}
-.loginUser{
-  padding: 10px;
-}
-.maps{
-  padding: 10px;
-}
-.products{
-  padding: 10px;
-}
 
-.inicio{
-  margin-left: 35rem;
-}
-
-.instagram, .whatsapp{
-  text-decoration: none; 
+.instagram, .whatsapp {
+  margin-right: 10px;
   font-size: 25px;
-  padding: 10px;
-}
-.instagram:hover{
-  text-decoration: none;
-  color:rgb(184, 30, 114);
-}
-.whatsapp:hover{
-  text-decoration: none;
-  color:green;
 }
 .whatsapp{
   color:green;
@@ -114,3 +59,52 @@ a:hover{
 .instagram{
   color:rgb(184, 30, 114);
 }
+
+.numero-compras{
+  font-size: 15px;
+}
+
+.buttonOpen{
+  display: none;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width:900px){
+  .navbar .rightSide .linksTo a{
+   font-size: 20px;
+  }
+}
+@media only screen and (max-width:850px){
+  .navbar .rightSide .linksTo a{
+   font-size: 15px;
+  }
+}
+@media only screen and (max-width:800px){
+  .buttonOpen{
+    display: flex;
+  }
+  .navbar .rightSide .linksTo{
+    display: none;
+   }
+  /*  .instagram, .whatsapp, .seeCarrito{
+    display: none;
+   } */
+   .navbar .rightSide #hidden 
+   {
+    /* position: absolute; */
+    left: 0px;
+    top:80px;
+    height: 230px;
+    max-height: 230px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .navbar .rightSide #hidden a{
+    margin:10px ;
+    font-size: 25px;
+   }
+}
+
