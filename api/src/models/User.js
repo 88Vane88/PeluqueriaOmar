@@ -30,7 +30,7 @@ const UserSchema = new moongose.Schema({
     },
   ],
 },
-{timestamps: false})
+{timestamps: false});
 
 UserSchema.set('toJSON', {
   transform: (document, returnedObject) => {
