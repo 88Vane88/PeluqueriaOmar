@@ -4,7 +4,9 @@ import cors from 'cors'
 import fileUpload from 'express-fileupload'
 import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
-//import router from './routes/index.js'
+
+import productRoutes from '../routes/productRoutes.js';
+//import userRoutes from '../routes/userRoutes.js';
 
 const server = express()
 
@@ -24,9 +26,8 @@ server.use((req, res, next) => {
     next();
 });
 
-server.use('/', (req, res)=>{
-    res.send("Holaaa")
-});
+server.use('/api/products',productRoutes);
+//server.use('/api/users',userRoutes);
 
 // Error catching endware.
 server.use((err, req, res, next) => {
