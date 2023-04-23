@@ -1,30 +1,54 @@
-.sectionAbout{
+.sectionAbout {
   background-color: black;
   color: white;
-  width: 100%;
-  height: 800%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 50px;
 }
-.titulo{
-  font-size: 50px;
-  color: white;
-  margin-bottom: 30px;
-}
-.contenedorAbout{
+
+.contenedorAbout {
   display: flex;
-}
-.txt{
-  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.imagenAbout{
-  width: 500px;
+.imagenAbout {
+  width: 400px;
   height: 400px;
-  margin-top: 50px;
-  margin-left: 10px;
+  object-fit: cover;
+  margin-right: 50px;
 }
-.box-1{
-  margin-right: 150px;
-  margin-top: 30px;
-  margin-left: 50px;
+
+.box-1 {
+  width: 50%;
+}
+
+.titulo {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.txt {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+/* Definimos los estilos para pantallas más pequeñas */
+@media only screen and (max-width: 768px) {
+  .contenedorAbout {
+    flex-direction: column;
+  }
+
+  .imagenAbout {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .box-1 {
+    width: 100%;
+  }
 }

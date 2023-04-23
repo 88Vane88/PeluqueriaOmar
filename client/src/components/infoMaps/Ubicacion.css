@@ -1,8 +1,32 @@
-.contenedorUbicacion{
+.contenedorUbicacion {
+  flex-direction: column;
+  justify-content: center;
   color: white;
   float: right;
-  margin-top: -30%;
   margin-right: 70px;
-  font-size: 20px;
+  margin-top:-300px;
+  font-size: 16px;
   font-style: italic;
+}
+
+@media screen and (max-width: 995px) {
+  .contenedorUbicacion {
+    flex-direction: row;
+  }
+
+  .contenedorUbicacion div {
+    float:left;
+    margin-top: 43%;
+  }
+}
+
+@media screen and (max-width: 847px) {
+  .contenedorUbicacion {
+    flex-direction: row;
+  }
+
+  .contenedorUbicacion div {
+    float:left;
+    margin-top: 45%;
+  }
 }

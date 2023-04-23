@@ -6,3 +6,30 @@
   color: white;
   padding: 10px;
 }
+
+@media (max-width: 768px) {
+  /* Ocultar elementos en pantallas más pequeñas */
+  .tituloMaps {
+    display: none;
+  }
+
+  /* Cambiar el tamaño del mapa en pantallas más pequeñas */
+  #gmap_pelu_omar {
+    width: 100%;
+    height: 300px;
+  }
+
+  /* Cambiar el diseño de los elementos en pantallas más pequeñas */
+  .contenedorMaps {
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
+
+
+
+
+
+
+
